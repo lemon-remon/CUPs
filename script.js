@@ -116,7 +116,7 @@ if (showBtn) {
     });
 
     if (Object.keys(colorMap).length === 0) {
-      openResultsModal(['今週は優秀やったね']);
+      openResultsModal(['結果発表(赤のところは人によるよ)']);
       return;
     }
 
@@ -149,3 +149,4 @@ if (showBtn) {
     openResultsModal(lines);
   });
 }
+
