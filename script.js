@@ -116,7 +116,7 @@ if (showBtn) {
     });
 
     if (Object.keys(colorMap).length === 0) {
-      openResultsModal(['結果発表(赤のところは人によるよ)']);
+      openResultsModal(['結果発表!!)']);
       return;
     }
 
@@ -149,4 +149,5 @@ if (showBtn) {
     openResultsModal(lines);
   });
 }
+
 
